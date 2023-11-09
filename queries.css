@@ -1,0 +1,14 @@
+/* Rem and em do not depend upon html font size in media queries and sometimes 
+rem creates problem in media queries so we use em instead of rem
+
+1rem === 1em === 16px*/
+
+/* **************** 
+  1344/16 === 84em (dsktop version)
+/* ************** */
+
+@media (max-width: 84em){
+  .hero{
+  max-width: 120rem;
+  }
+}

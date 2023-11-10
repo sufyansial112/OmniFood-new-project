@@ -10,6 +10,7 @@ primary Color: #e67e22
 html {
   font-size: 62.5%;
    /* 1 rem = 10px */
+   overflow-x: hidden;
 }
 
 body {
@@ -17,8 +18,27 @@ body {
   font-weight: 400;
   color: #555;
   line-height: 1;
+  overflow-x: hidden;
 }
 
+/* Mobile  */
+
+.mobile-nav-btn{
+  border: none;
+  background: none;
+  color: #333;
+  display: none;
+  cursor: pointer;
+}
+.mobile-nav-icon{
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #333;
+}
+
+.mobile-nav-icon[name="close-outline"]{
+  display: none;
+}
 /* *************** Resuable designs **************** */
 
 .heading-primary{
@@ -159,6 +179,7 @@ body {
   color: #cf711f;
 }
 .main-header{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -10,18 +10,22 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header nav-open">
       <img class="logo" src="./content/img/omnifood-logo.png">
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">Section 1</a></li>
-          <li><a href="#" class="main-nav-link">Section 2</a></li>
-          <li><a href="#" class="main-nav-link">Section 3</a></li>
-          <li><a href="#" class="main-nav-link">Section 4</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Section 5</a></li>
+          <li><a href="#" class="main-nav-link">HOW IT WORKS</a></li>
+          <li><a href="#" class="main-nav-link">MEALS</a></li>
+          <li><a href="#" class="main-nav-link">TESTIMONIALS</a></li>
+          <li><a href="#" class="main-nav-link">PRICING</a></li>
+          <li><a href="#" class="main-nav-link nav-cta">TRY FOR FREE</a></li>
 
         </ul>
       </nav>
+      <button class="mobile-nav-btn"> 
+      <ion-icon class="mobile-nav-icon" name="grid-outline"></ion-icon>
+      <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+    </button>
     </header>
 
                 <!-------- Section hero --------->
@@ -73,14 +77,14 @@
                 <!-------- Section how --------->
 
     <section class="section-how">
-      <div class="container">
+      <div class="container mob-how">
         <span class="sub-heading">How it works</span>
         <h2 class="heading-secondary">
           Your daily dose of health in 3 simple steps
         </h2>
         </div>
 
-        <div class=" container gird-hero grid grid--2--cols">
+        <div class=" container mob-how-grid gird-hero grid grid--2--cols">
           <div class="step-txt-box">
             <p class="step-num">01</p>
             <h3 class="heading-tertiary">
@@ -157,7 +161,7 @@
             </ul>
           </div>
           </div>
-          <div class="meals">
+          <div class="diets">
             <h3 class="heading-tertiary">works with any diet</h3>
             <ul class="meals-list">
               <li class="meals-items"> <ion-icon class="meals-items-icons" name="checkmark-outline"></ion-icon>Vegetarian</li>
@@ -390,7 +394,7 @@
         <a class="links-footer" href="mailto:hello@gmail.com">hello@gmail.com</a>
       </address>
     </div>
-    <div class="account-col">
+    <div class="footer-panel">
       <p class="col-heading-footer">Create account</p>
       <ul class="nav">
         <li class="nav-li">Sign in</li>
@@ -401,7 +405,7 @@
       </ul>
         
     </div>
-    <div class="Career">
+    <div class="footer-panel">
       <p class="col-heading-footer">About Omnifood</p>
       <ul class="nav">
         <li class="nav-li">
@@ -412,7 +416,7 @@
 
       </ul>
     </div>
-    <div class="resources">
+    <div class="footer-panel">
       <p class="col-heading-footer">Resources</p>
       <ul class="nav">
         <li class="nav-li">Recipe directory</li>
@@ -422,5 +426,7 @@
       </ul>
     </div>
   </div>
+
+  <script src="./script.js"></script>
   </body>
 </html>

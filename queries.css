@@ -185,6 +185,62 @@ grid-template-columns: repeat(3, 1fr);
 .logo{
   grid-column: span 3;
 }
+/* **************** 
+  400/16 === 25em (tablet version)
+  below 400px
+/* ************** */
+
+@media (max-width: 25em){
+  html{
+    /* 7px/16px === 0.43 */
+    font-size: 43%;
+  }
+.hero{
+  padding: 0 2.4rem;
 }
-
-
+.hero-img{
+  width: 70%;
+}
+.hero-description{
+  margin-bottom: 1rem;
+}
+.delivered{
+  margin-top: 2.4rem;
+}
+.marg-bot{
+  margin-bottom: 1.8rem;
+}
+.grid--2--cols{
+  grid-template-columns: 1fr;
+}
+.mob-grid-5{
+  grid-row: 5;
+}
+.mob-grid-1{
+  grid-row: 1;
+}
+.section-how{
+  padding:  4.2rem 0rem ;
+}
+.gallery{
+  grid-template-columns: repeat(4, 1fr);
+  gap:1rem; 
+}
+.start{
+  justify-self: center;
+}
+.last{
+  justify-self: center;
+}
+.featured-description-taxes{
+  text-align: center;
+  padding: 0 2rem;
+}
+.grid-cta{
+  grid-template-columns: 1fr;
+}
+.cta-img{
+  grid-row: 1;
+  height: 36rem;
+}
+}

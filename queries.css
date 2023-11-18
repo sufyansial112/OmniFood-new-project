@@ -185,6 +185,7 @@ grid-template-columns: repeat(3, 1fr);
 .logo{
   grid-column: span 3;
 }
+}
 /* **************** 
   400/16 === 25em (tablet version)
   below 400px
